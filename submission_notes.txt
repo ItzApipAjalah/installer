@@ -1,8 +1,34 @@
+Submission Type: Software Developer
+
 Application Name: Kizu Server Mod Installer
-Purpose: Minecraft mod installer for Kizu Server
-Behaviors:
-- Downloads mod files from verified API
-- Installs to .minecraft/versions folder
-- Uses Windows standard paths
-- No malicious behavior
-- Open source code available at: https://github.com/ItzApipAjalah/installer
+Developer: KizuServer
+Version: 1.0.0
+Category: Game Utility/Mod Installer
+
+Purpose: 
+- Official mod installer for Kizu Minecraft Server
+- Automates mod installation process for players
+
+Technical Details:
+- Built with C# (.NET Framework)
+- Uses standard Windows APIs
+- Downloads from secure API endpoint
+- Installs to standard Minecraft directory
+- Open source code: https://github.com/ItzApipAjalah/installer
+
+Application Behaviors:
+1. Downloads mod files from verified API (https://stats-mod-backend.vercel.app/api/modpack)
+2. Installs to %appdata%/.minecraft/versions/
+3. Uses ipconfig /flushdns for DNS cache clearing
+4. Launches TLauncher.exe after installation
+
+Security Measures:
+- No obfuscation used
+- All code is open source
+- Uses HTTPS for downloads
+- Standard Windows installation paths
+- No system modifications outside Minecraft folder
+
+Contact Information:
+Email: afifmedya@gmail.com
+GitHub: https://github.com/ItzApipAjalah
