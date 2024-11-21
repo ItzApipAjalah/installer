@@ -1,0 +1,8 @@
+Application Name: Kizu Server Mod Installer
+Purpose: Minecraft mod installer for Kizu Server
+Behaviors:
+- Downloads mod files from verified API
+- Installs to .minecraft/versions folder
+- Uses Windows standard paths
+- No malicious behavior
+- Open source code available at: https://github.com/ItzApipAjalah/installer
